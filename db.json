@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "Cristian ACTUALIZADO",
+      "empresa": "amazon",
+      "email": "cpinopacheco@gmail.com",
+      "telefono": "123456",
+      "notas": "test",
+      "id": 1
+    },
+    {
+      "nombre": "Cristian",
+      "empresa": "microsoft",
+      "email": "cpinopacheco64@gmail.com",
+      "telefono": "957409074",
+      "notas": "Buscando un producto",
+      "id": 2
+    },
+    {
+      "nombre": "karen",
+      "empresa": "karen diseño",
+      "email": "karen@gmail.com",
+      "telefono": "1234456",
+      "notas": "Prueba",
+      "id": 4
+    },
+    {
+      "nombre": "Paulina",
+      "empresa": "Paulina contrucciones",
+      "email": "paulina@gmail.com",
+      "telefono": "978927559",
+      "notas": "Test 2",
+      "id": 5
+    },
+    {
+      "nombre": "Melody",
+      "empresa": "amazon",
+      "email": "melody@gmail.com",
+      "telefono": "123456",
+      "notas": "",
+      "id": 6
+    }
+  ]
+}
