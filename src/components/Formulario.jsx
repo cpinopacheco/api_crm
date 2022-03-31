@@ -30,7 +30,7 @@ export const Formulario = ({ cliente, cargando }) => {
       let respuesta;
       if (cliente.id) {
         //Editando un registro
-        const url = `http://localhost:4000/clientes/${cliente.id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`;
 
         //cuando crear, eliminamos o actualizamos parasamos un segundo parametro para configurar la petición. Por defecto es un methodo GET
         respuesta = await fetch(url, {
@@ -42,7 +42,7 @@ export const Formulario = ({ cliente, cargando }) => {
         });
       } else {
         //Nuevo Registro
-        const url = "http://localhost:4000/clientes";
+        const url = import.meta.env.VITE_API_URL;
 
         //cuando crear, eliminamos o actualizamos parasamos un segundo parametro para configurar la petición. Por defecto es un methodo GET
         respuesta = await fetch(url, {
